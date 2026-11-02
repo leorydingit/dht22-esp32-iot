@@ -55,7 +55,7 @@ flowchart TD
 
 ## Dashboard preview
 
-![Grafana dashboard](images/Dashboard_preview.png)
+![Grafana dashboard](images/Dashboard_preview.jpg)
 
 *Grafana dashboard displaying temperature and humidity measurements.*
 
