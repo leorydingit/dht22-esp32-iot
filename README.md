@@ -25,6 +25,9 @@ The DHT22 sensor is connected to the ESP32 using the following pin configuration
 
 A 4.7kΩ pull-up resistor is connected between VCC and DATA to ensure stable communication.
 
+![ESP32 connected to DHT22](images/hardware_setup.jpg)
+
+*ESP32 connected to the DHT22 sensor.*
 
 ## Architecture
 
@@ -51,6 +54,10 @@ flowchart TD
    ```
 
 ## Dashboard preview
+
+![Grafana dashboard](images/dashboard_preview.png)
+
+*Grafana dashboard displaying temperature and humidity measurements.*
 
 ## Features
 
@@ -129,7 +136,7 @@ Configure the local secrets header file with:
 
 - Wi-Fi password
 
-- API server address % port
+- API server address & port
 
 - OTA password
 
